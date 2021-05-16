@@ -6,9 +6,12 @@ p { color: lightsalmon; }
 
 h4,
 a,
+span,
 legend,
-footer-p { color: white; }
+.footer-p { color: white; }
 
-.submit-button { text-align: center; }
+.website-logo { max-height: 35px; }
+
+.student-name { text-align: left; }
 
 .space-below-form { padding: 100px 0; }

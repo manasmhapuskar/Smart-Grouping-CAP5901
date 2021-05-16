@@ -1,27 +1,8 @@
-body {
-	background-color: darkslategray;
-}
+body { background-color: darkslategray; }
 
-label {
-	color: lightblue;
-}
+p,
+span { color: white; }
 
-p {
-	color: lightsalmon;
-}
+.website-logo { max-height: 35px; }
 
-h2 {
-	color: white;
-}
-
-h4 {
-	color: white;
-}
-
-legend {
-	color: white;
-}
-
-a {
-	color: white;
-}
+.space-below-slider { padding: 100px 0px; }

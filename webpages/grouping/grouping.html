@@ -549,10 +549,10 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="glyphicon glyphicon-menu-hamburger" style="color: #FFF"></span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
                     </button>
                     <a class="navbar-brand" href="../homepage/homeprof.html">
-                        <img style="max-height: 35px" src="../../images/hci_logo.png">
+                        <img class="website-logo" src="../../images/hci_logo.png">
                     </a>
                 </div>	
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -575,16 +575,16 @@
         <div class="container-fluid">
             <body onload="hideDropdowns()">
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <h2>Grouping</h2>
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p>Group Size</p>
                     <input type="text" id="groupSize" name="Group Size">
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p id="constraintText1">Constraint 1</p>
 
                     <select id="mustHaveDropdown1">
@@ -614,7 +614,7 @@
                     </select>               
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p id="constraintText2">Constraint 2</p>
 
                     <select id="mustHaveDropdown2">
@@ -644,7 +644,7 @@
                     </select>               
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p id="constraintText3">Constraint 3</p>
 
                     <select id="mustHaveDropdown3">
@@ -674,7 +674,7 @@
                     </select>             
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p id="constraintText4">Constraint 4</p>
 
                     <select id="mustHaveDropdown4">
@@ -704,7 +704,7 @@
                     </select>            
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <p id="constraintText5">Constraint 5</p>
 
                     <select id="mustHaveDropdown5">
@@ -734,12 +734,12 @@
                     </select>              
                 </div>
 
-                <div onsubmit="return false;" style="display:flex; flex-direction: row; justify-content: center; align-items: center;">
+                <div onsubmit="return false;" class="grouping-section">
                     <button onclick="addConstraint()">Add a Constraint</button>
                     <button onclick="removeConstraint()">Remove last Constraint</button>
                 </div>
 
-                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                <div class="grouping-section">
                     <button onclick="location.href = 'groupingResults.html'">Make Groups</button>
                 </div>
                 
@@ -748,7 +748,7 @@
 
         <section class="container">   
             <article id="about">
-                <div class="row" style="padding: 100px 0px">
+                <div class="row space-below-grouping">
                     <div class="col-sm-1"></div>
                     <div class="col-sm-15"></div>
                 </div>
@@ -763,7 +763,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <p></p>
-                            <p style="color: #fff;" class="text-center">&copy; Smart Grouping 2020</p> 
+                            <p class="text-center footer-p">&copy; Smart Grouping 2020</p> 
                         </div>
                     </div>
                 </div>

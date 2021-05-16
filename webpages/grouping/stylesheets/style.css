@@ -1,27 +1,21 @@
-body {
-	background-color: darkslategray;
+body { background-color: darkslategray; }
+
+p { color: lightsalmon; }
+
+h2,
+h4,
+a,
+span,
+legend,
+.footer-p { color: white; }
+
+.website-logo { max-height: 35px; }
+
+.grouping-section {
+	display:flex; 
+	flex-direction: row; 
+	justify-content: center; 
+	align-items: center
 }
 
-label {
-	color: lightblue;
-}
-
-p {
-	color: lightsalmon;
-}
-
-h2 {
-	color: white;
-}
-
-h4 {
-	color: white;
-}
-
-legend {
-	color: white;
-}
-
-a {
-	color: white;
-}
+.space-below-grouping { padding: 100px 0px; }
